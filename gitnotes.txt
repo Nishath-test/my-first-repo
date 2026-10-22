@@ -15,4 +15,15 @@ Check GIT status "git status"
 Initial it will throw fatal error as GIT has not started to watch the folder "fatal: not a git repository (or any of the parent directories): .git"
 Next command is to initialize GIT using command "git init"
 Now check for GIT status using the command "git status"
+shows all the file in red  inside that folder 
+add the filename which needs to be watched "git add gitnotes.txt"
+next type the command for status " git status"
+shows the file in green colour  new file : gitnotes.txt
+next is the commit " git commit -m "Add gitnotes file " mentioning what changes has been made to file 
+we can check history by command "git log "
+to get it in one line " git log -oneline " 
+Again type " git status"
+Shows as modified : gitnotest,txt
+
+
 
