@@ -1,0 +1,18 @@
+//First step - Downloading the GIT and configuring name and email id " 
+Download GIT for windwos "https://git-scm.com/install/windows"
+Open command prompt
+Type git --version
+Version will be shown 
+config username and email id using the commands below 
+git config --global user.name "Nishath"
+git config --global user.email "nishathl25@gmail.com"
+
+// second step 
+open the folder through VS CODE 
+oPEN THE TERMINAL 
+Configure color "git config --global color.ui auto"
+Check GIT status "git status"
+Initial it will throw fatal error as GIT has not started to watch the folder "fatal: not a git repository (or any of the parent directories): .git"
+Next command is to initialize GIT using command "git init"
+Now check for GIT status using the command "git status"
+
